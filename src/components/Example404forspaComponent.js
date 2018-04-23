@@ -16,7 +16,8 @@ export default function Example404forspaComponent() {
       <Route exact path="/example404forspa"  render={() => 
 	     (<div><Example404forspaPageText />
 		    <div style={s.pageLinkContainer}>
-		      <Interactive as={Link} {...s.link} to="/example/two-deep?field1=foo&field2=bar#boom!" >Try this too: Example two deep with query and hash</Interactive>
+		      <Interactive as={Link} {...s.link} to="/example/two-deep?field1=foo&field2=bar#boom!" >Try this too: Example two deep with query and hash</Interactive><br />
+		      <Interactive as={Link} {...s.link} to="/example" >Try this Example also</Interactive>
 		    </div>
 	      </div> )} />
 	  <Route component={PageNotFound} />
