@@ -2,8 +2,8 @@ import React from 'react';import Interactive from 'react-interactive';import { S
 import PageNotFound from './PageNotFound';import Breadcrumbs from './Breadcrumbs';import s from '../styles/app.style';
 import ExampleComponent from './ExampleComponent';import Example404forspaComponent from './Example404forspaComponent';
 
-export default function App() {return (<div style={s.root}><h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
-  <Interactive as="a" href="https://github.com/rafrex/spa-github-pages" style={s.repoLink} {...s.link}  >https://github.com/rafrex/spa-github-pages</Interactive>
+export default function App() {return (<div style={s.root}><h1 style={s.title}>Single Page App framework for GitHub Pages</h1>
+  <Interactive as="a" href="https://github.com/zawsx/404forspa" style={s.repoLink} {...s.link}  >https://github.com/zawsx/404forspa</Interactive>
 
     <nav style={s.breadcrumbs}><Breadcrumbs /></nav>
 
